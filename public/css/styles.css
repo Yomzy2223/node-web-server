@@ -1,10 +1,37 @@
 body {
-  color: blue;
-  background-color: violet;
+  background-color: rgb(235, 235, 240);
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
-  color: yellow;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(92, 92, 92);
+  margin-right: 150px;
 }
-p {
-  background-color: tomato;
+a {
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+#input {
+  width: 150px;
+  background-color: rgb(235, 235, 240);
+  border-color: rgb(179, 179, 179);
+  margin-top: 10px;
+  height: 20px;
+}
+#submit {
+  background-color: rgb(92, 92, 92);
+  color: white;
+  margin-top: 10px;
+  height: 25px;
+}
+div {
+  margin-left: 150px;
+  height: 95vh;
+}
+#header {
+  margin-bottom: 0px;
 }

@@ -1,38 +1,20 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <link rel="stylesheet" href="../../public/css/styles.css">
-  </head>
-
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/js/app.js"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div>
     {{>header}}
-    <p></p>
-
-    <style>
-      body {
-        color: rgb(15, 15, 78);
-        background-color: rgb(192, 192, 192);
-        font-family: Arial, Helvetica, sans-serif;
-      }
-    
-      header {
-        color: yellow;
-      }
-    
-      p,
-      a {
-        text-align: center;
-        font-size: 25px;
-        width: 300px;
-        background-color: rgba(255, 255, 255, 0.7);
-        margin: 30%, 0, 0, 0;
-        border-radius: 5px;
-      }
-    
-      a {
-        text-decoration: none;
-      }
-    </style>
-  </body>
+    <p>You can get to know more about this website on this page</p>
+    <P>You can also get to read some documentations here as well.</P>
+    <p>Click the homepage link above to navigate back to homepage</p>
+    {{>footer}}
+  </div>
+</body>
 </html>
